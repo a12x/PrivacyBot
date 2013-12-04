@@ -1,0 +1,32 @@
+a {
+	text-decoration: none;
+  color: #D0021B;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  margin: 0 auto;
+  max-width: 550px;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.2em;
+}
+
+.personal {
+  color: #5496E2;
+  font-weight: bold;
+}
+
+.dialog {
+  line-height: 150%;
+}
+
+h1 {
+  font-size: 4em;
+  font-family: 'Georgia';
+  font-weight: normal;
+  margin-bottom: 100px;
+}
