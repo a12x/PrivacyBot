@@ -76,18 +76,18 @@ function personal(string) {
 
 function wall_post() {
   FB.login(function(response) {
-var params = {};
-params['message'] = 'Hello World!';
-params['name'] = 'Name';
-params['description'] = 'Description';
+    var params = {};
+    params['message'] = 'Hello World!';
+    params['name'] = 'Name';
+    params['description'] = 'Description';
 
-FB.api('/me/feed', 'post', params, function(response) {
-  if (!response || response.error) {
-    alert(response.error);
-  } else {
-    alert('Published!');
-  }
-});
+    FB.api('/me/feed', 'post', params, function(response) {
+      if (!response || response.error) {
+        alert(response.error);
+      } else {
+        alert('Published!');
+      }
+    });
   }, {perms: 'publish_stream'});
 }
 
